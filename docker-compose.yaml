@@ -1,0 +1,8 @@
+version: '3'
+services:
+  autogenstudio:
+    build: .
+    ports:
+      - "8081:8081"
+    volumes:
+      - ./data:/root/.autogenstudio/
